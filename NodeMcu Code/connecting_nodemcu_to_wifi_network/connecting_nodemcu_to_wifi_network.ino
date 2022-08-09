@@ -3,7 +3,7 @@
 void setup()
 {
 Serial.begin(9600);
-WiFi.begin("Redmi note", "123456789");
+WiFi.begin("ICE_Innovation_Lab", "beinnovative#");
   while(WiFi.status()!= WL_CONNECTED)
   {
     Serial.print("..");
